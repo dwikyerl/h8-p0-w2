@@ -10,9 +10,9 @@ DISPLAY "force"
 
 READ and SAVE "year"
 
-IF "year" modulo 4 is 0 AND "year" modulo 100 is not 0
+IF "year" mod 4 equals 0 AND "year" mod 100 is not equal to 0
   DISPLAY "Leap Year"
-ELSE IF "year" modulo 400 is 0
+ELSE IF "year" modulo 400 equals 0
   DISPLAY "Leap Year"
 ELSE
   DISPLAY "Not Leap Year"
