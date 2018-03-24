@@ -1,0 +1,40 @@
+1. Newton's Second Law
+
+STORE "mass" with value of 600
+STORE "acceleration" with value of 2
+CALCULATE "mass" times "acceleration"
+STORE the calculation result as "force"
+DISPLAY "force"
+
+2. Tahun Kabisat (Leap year)
+
+READ and SAVE "year"
+
+IF "year" modulo 4 is 0 AND "year" modulo 100 is not 0
+  DISPLAY "Leap Year"
+ELSE IF "year" modulo 400 is 0
+  DISPLAY "Leap Year"
+ELSE
+  DISPLAY "Not Leap Year"
+
+3. Laundry Day
+
+STORE "clothes counter" with value of 0
+
+WHILE "clothes counter" < 20
+  ADD 1 to "clothes counter"
+ENDWHILE
+
+DO "Turn on the washing machine"
+
+4. Periksa Kuku
+
+STORE "students counter" with value of 1
+
+WHILE "students counter" <= 40
+  IF "nails" are long
+    SHOW "punishment"
+  ELSE
+    SHOW "praise"
+  ADD 1 to "student counter"
+ENDWHHILE
