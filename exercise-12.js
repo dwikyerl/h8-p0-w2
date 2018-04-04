@@ -7,10 +7,10 @@
  */
 
 function konversiMenit(menit) {
-  let minutes = Math.floor(menit / 60);
-  let seconds = (menit % 60).toString();
-  if (seconds.length === 1) seconds = "0" + seconds;
-  return minutes + ":" + seconds;
+  let hours = Math.floor(menit / 60);
+  let minutes = (menit % 60).toString();
+  if (minutes.length === 1) minutes = "0" + minutes;
+  return hours + ":" + minutes;
 }
 
 // TEST CASES
